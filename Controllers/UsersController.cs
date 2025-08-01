@@ -5,7 +5,6 @@ using RODXUsers.DTO;
 
 namespace RODXUsers.Controllers
 {
-
     [ApiController]
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
