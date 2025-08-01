@@ -4,6 +4,7 @@ namespace RODXUsers.DTO
 {
     public class UserUpdateDto
     {
+
         [Required]
         public string UserName { get; set; }
 
