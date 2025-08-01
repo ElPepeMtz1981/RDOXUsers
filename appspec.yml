@@ -2,7 +2,7 @@
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/rdouserssc
+    destination: /home/ubuntu/rdoxuserssc
 >>>>>>> dev
 hooks:
   AfterInstall:
