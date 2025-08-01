@@ -48,7 +48,6 @@ namespace RODXUsers.Controllers
             return Ok(users);
         }
 
-
         [HttpPost("newuser")]
         public async Task<ActionResult<Models.Users>> CreateUser(UserCreateDto userDto)
         {
