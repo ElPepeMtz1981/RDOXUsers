@@ -49,7 +49,7 @@ namespace RODXUsers.Controllers
         }
 
 
-        [HttpPost("new")]
+        [HttpPost("newuser")]
         public async Task<ActionResult<Models.Users>> CreateUser(UserCreateDto userDto)
         {
             if (!ModelState.IsValid)
