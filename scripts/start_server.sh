@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 set -e
 
 echo "Ejecutando start_server.sh..." >> /home/ubuntu/rdoxusers.log

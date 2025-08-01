@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 set -e
 
 echo "Start after_install.sh" >> /home/ubuntu/rdoxusers.log
