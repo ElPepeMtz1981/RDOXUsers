@@ -4,7 +4,6 @@ namespace RODXUsers.DTO
 {
     public class UserUpdateDto
     {
-
         [Required]
         public string UserName { get; set; }
 
@@ -14,5 +13,4 @@ namespace RODXUsers.DTO
         [Required]
         public int FkIdRol { get; set; }
     }
-
 }
