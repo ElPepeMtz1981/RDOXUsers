@@ -17,6 +17,5 @@ namespace RODXUsers.Data
         {
             modelBuilder.Entity<ViewUserRol>().HasNoKey().ToView("ViewUserRol");
         }
-
     }
 }
