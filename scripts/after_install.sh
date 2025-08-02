@@ -18,7 +18,7 @@ cd /home/ubuntu/rdoxuserssc
 
 echo "start publish" >> /home/ubuntu/rdoxusers.log
 # 👉 Publica en la carpeta de artefactos
-$DOTNET_ROOT/dotnet publish RDOXLogin.csproj -c Release -o /home/ubuntu/rdoxusers
+$DOTNET_ROOT/dotnet publish RDOXUsers.csproj -c Release -o /home/ubuntu/rdoxusers
 
 echo "End publish" >> /home/ubuntu/rdoxusers.log
 
