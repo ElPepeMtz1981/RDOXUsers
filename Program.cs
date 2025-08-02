@@ -8,6 +8,7 @@ namespace RODXUsers
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("RDOXUsers rest api");
             Console.WriteLine("By SoftwarechidoMx");
             Console.WriteLine();
             Console.WriteLine("Start Program.cs");
@@ -31,7 +32,7 @@ namespace RODXUsers
             {
                 Console.WriteLine($"conections string loaded: {connection.Split(';')[0]}");
             }
-            builder.Services.AddDbContext<UserDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Users")));
+            builder.Services.AddDbContext<UserDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("UsersDB")));
 
             //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             //    .AddJwtBearer(opt =>
